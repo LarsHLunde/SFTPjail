@@ -51,7 +51,7 @@ for the changes to take effect, ssh server needs to be restarted:
 
 ### The scripts
 The first and by far most important scrip is the **sftp_adduser.sh**  
-script as it sets up your user for you and does all the magic.
+script as it sets up your user for you and does all the magic.  
 If you copy it in to a file and run ```bash sftp_adduser.sh```,  
 you should be done and ready to rock.
 
