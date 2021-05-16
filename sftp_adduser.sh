@@ -9,7 +9,6 @@
 echo "Please enter the name of the new sftp user"
 read username
 
-mkdir -p /sftp/$username
 useradd -m -s /sbin/nologin -d /sftp/$username $username
 usermod -a -G sftpusers $username
 chown root:root /sftp
