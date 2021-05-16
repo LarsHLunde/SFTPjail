@@ -13,9 +13,9 @@ mkdir -p /sftp/$username
 useradd -m -s /sbin/nologin -d /sftp/$username $username
 usermod -a -G sftpusers $username
 chown root:root /sftp
-chown root:root /sftp/*
+chown root:$username /sftp/*
 chmod 700 /sftp
-chmod 700 /sftp/*
+chmod 750 /sftp/*
 
 echo "Please set password for new user"
 passwd $username
