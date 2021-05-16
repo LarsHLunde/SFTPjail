@@ -4,7 +4,7 @@
 # or by using sudo, and will have to be chmod+x'ed
 
 # MIT licensed
-# Copyright Lars H. Lunde
+# Copyright Lars H. Lunde 2021
 
 echo "Please enter the name of the new sftp user"
 read username
