@@ -84,7 +84,7 @@ chmod 770 -R /sftp/sftpuser/upload
 What it will fix on the other hand is if files will not display,  
 and if you can't get in with any SFTP users but normal users work fine.  
 
-There may be some helpful information hidden in your **auth.log** as well:
+There may be some helpful information hidden in your **auth.log** as well:  
 ```cat /var/log/auth.log | grep sshd ```  
 
 One last point to bring across is to remove an sftp user,
