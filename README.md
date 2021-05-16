@@ -75,7 +75,7 @@ https://www.tecmint.com/create-virtual-harddisk-volume-in-linux/
 The third script will atempt to repair file permissions in your  
 **/sftp** folder and subfolders, if it doesn't work you'll have  
 to read the rest of the article, what it does not do, due to  
-security concerns and lazyness is make the upload folder 
+security concerns and lazyness is make the upload folder  
 writable too again, if that's your problem try doing a :  
 ```
 chown root:sftpuser /sftp/sftpuser/upload
