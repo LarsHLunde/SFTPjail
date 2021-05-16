@@ -17,8 +17,5 @@ chown root:root /sftp/*
 chmod 700 /sftp
 chmod 700 /sftp/*
 
-chown root:$username -R sftp/$username/*
-chmod g+r -R /sftp/$username/*
-
 echo "Please set password for new user"
 passwd $username
