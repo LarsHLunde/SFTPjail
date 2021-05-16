@@ -87,6 +87,9 @@ and if you can't get in with any SFTP users but normal users work fine.
 There may be some helpful information hidden in your **auth.log** as well:
 ```cat /var/log/auth.log | grep sshd ```  
 
+One last point to bring across is to remove an sftp user,
+etc...
+
 ## Why chrooted SFTP is such a pain
 To be completed!
 
